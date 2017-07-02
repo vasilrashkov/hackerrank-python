@@ -1,6 +1,8 @@
 ## Task
+
 Given a Book class and a Solution class, write a MyBook class that does the following:
 
+- Functions
     ⋅⋅* Inherits from Book
 
     ⋅⋅* Has a parameterized constructor taking these  parameters:
