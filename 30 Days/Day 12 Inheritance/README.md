@@ -56,6 +56,17 @@ This student had 2 scores to average: 100 and 80. The student's average grade is
 
 - Start code:
     ```
+    class Person:
+	def __init__(self, firstName, lastName, idNumber):
+		self.firstName = firstName
+		self.lastName = lastName
+		self.idNumber = idNumber
+	def printPerson(self):
+		print("Name:", self.lastName + ",", self.firstName)
+		print("ID:", self.idNumber)
+    ```
+
+    ```
     line = input().split()
     firstName = line[0]
     lastName = line[1]
@@ -66,3 +77,4 @@ This student had 2 scores to average: 100 and 80. The student's average grade is
     s.printPerson()
     print("Grade:", s.calculate())
     ```
+
