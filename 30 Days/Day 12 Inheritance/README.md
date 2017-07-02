@@ -78,3 +78,4 @@ This student had 2 scores to average: 100 and 80. The student's average grade is
     print("Grade:", s.calculate())
     ```
 
+LINK: https://www.hackerrank.com/challenges/30-inheritance
