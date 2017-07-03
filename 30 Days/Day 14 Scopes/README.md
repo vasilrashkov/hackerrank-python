@@ -15,8 +15,8 @@ The Difference class is started for you in the editor. It has a private integer 
 You are not responsible for reading any input from stdin. The locked Solution class in your editor reads in `2` lines of input; the first line contains `N`, and the second line describes the `elements` array.
 
 - Constraints
-   ⋅⋅* 1 <= N <= 10
-   ⋅⋅* 1 <= elements[i] <= 100, where 0 <= i <= N - 1
+   - 1 <= N <= 10
+   - 1 <= elements[i] <= 100, where 0 <= i <= N - 1
 
 - Output Format
 
@@ -44,13 +44,14 @@ To find the maximum difference, computeDifference checks each element in the arr
 The maximum of these differences is `4`, so it saves the value `4` as the `maximumDifference` instance variable. The locked stub code in the editor then prints the value stored as `maximumDifference`, which is `4`.
 
 - Start code:
-    ```
+    ```python
     class Difference:
         def __init__(self, a):
             self.__elements = a
     ```
+    //YOUR CODE HERE
 
-    ```
+    ```python
     # End of Difference class
 
     _ = input()
