@@ -4,7 +4,7 @@ The Difference class is started for you in the editor. It has a private integer 
 
 ## Task
 
-Complete the Difference class by writing the following:
+> Complete the Difference class by writing the following:
 
 - A class constructor that takes an array of integers as a parameter and saves it to the `elements` instance variable.
 
