@@ -26,29 +26,21 @@ Print the minimum number of jumps needed to win the game.
 
 # Sample Input 0
 
-    ```
     7
     0 0 1 0 0 1 0
-    ```
 
 # Sample Output 0
 
-    ```
     4
-    ```
 
 # Sample Input 1
 
-    ```
     6
     0 0 0 0 1 0
-    ```
 
 # Sample Output 1
 
-    ```
     3
-    ```
 
 # Explanation
 
