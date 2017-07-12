@@ -31,14 +31,44 @@ The locked stub code in your editor will print the integer returned by your getH
 
 The input forms the following BST:
 
+![alt text](https://github.com/vshaddix/hackerrank-python/blob/master/30%20Days/Day%2022%20Binary%20Search%20Trees/1.png?raw=true)
 
 The longest root-to-leaf path is shown below:
 
+![alt text](https://github.com/vshaddix/hackerrank-python/blob/master/30%20Days/Day%2022%20Binary%20Search%20Trees/2.png?raw=true)
 
 There are `4` nodes in this path that are connected by `3` edges, meaning our BST's `height = 3`. Thus, we print `3` as our answer.
 
+### Start code:
+
+    class Node:
+        def __init__(self,data):
+            self.right=self.left=None
+            self.data = data
+    class Solution:
+        def insert(self,root,data):
+            if root==None:
+                return Node(data)
+            else:
+                if data<=root.data:
+                    cur=self.insert(root.left,data)
+                    root.left=cur
+                else:
+                    cur=self.insert(root.right,data)
+                    root.right=cur
+            return root
+        def getHeight(self,root):
+            #Write your code here
 
 
+    T=int(input())
+    myTree=Solution()
+    root=None
+    for i in range(T):
+        data=int(input())
+        root=myTree.insert(root,data)
+    height=myTree.getHeight(root)
+    print(height)
 
 
 
